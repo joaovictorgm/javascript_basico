@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--<script>
+        let spaceshipName = "Supernova"// Uma variável que pode ser acessada de qualquer lugar, se diz que ela tem um escopo global
+
+        function changeSpaceshipName() {
+            spaceshipName= "Elemental"
+        }
+         alert(spaceshipName)// Supernova
+        changeSpaceshipName()
+
+         alert(spaceshipName)//Elemental
+
+    </script>-->
+     <!--<script>
+         function startSpaceshipVelocity(){
+             let spaceshipVelocity = 0// quando uma variável for declarada dentro de uma função ela so pode ser usada dentro de uma função, é chamado de escopo local
+         }
+
+         startSpaceshipVelocity()
+
+         alert(spaceshipVelocity)
+     </script>-->
+
+     <script>
+         function setSpaceshipDetails() {
+             alert(spaceshipName)// da erro porque é declarado com var e fica como undefined
+             alert(spaceshipType)// erro porque a variavel so é declarada quando o programa le
+             var spaceshipName = "Elemental"
+             let spaceshipType = "Discovery"// let só é declarado quando lido
+             alert(spaceshipName)
+             alert(spaceshipType)
+
+         }
+            setSpaceshipDetails()
+         
+
+     </script>
+    
+</body>
+</html>

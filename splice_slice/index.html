@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splice e Slice</title>
+</head>
+<body>
+    <script>
+        //Splice
+
+        /*let spaceshipName = ["Elemental", "Darwin","Artemis", "Supernova"]
+
+        alert(spaceshipName)
+
+        removedSpaceships = spaceshipName.splice(1, 2, "Deméter", "Puller", "Golias")
+        /* O comado "splice" irá remover "Darwin", "Artemis" e colocará no lugar , Deméter, Puller e Golias
+        A variável "removedSpaceships receberá "Darwin" e "Artemis"
+
+        alert(spaceshipName)
+
+        alert(removedSpaceships)*/
+
+        //Slice
+
+        let spaceshipName = ["Elemental", "Darwin", "Artemis", "Supernova"]
+
+        let extractedNames = spaceshipName.slice(0,3)
+        //O "slice" pegará uma fatia nos números do array retornando "Elemental" mas não retornando Supernova
+
+        alert(spaceshipName)
+
+        alert(extractedNames)
+    </script>
+    
+</body>
+</html>

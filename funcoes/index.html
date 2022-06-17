@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <!--<script>
+        // função basica
+        function greetPilot() {
+           alert("Bom dia, Piloto!") 
+        }
+        greetPilot()
+    </script>
+    -->
+    <!--<script>
+        // parâmetros
+        function speedUp(velocity, acceleration) {
+            let newVelocity = velocity + acceleration
+            alert("Nova velocidade: " + newVelocity)
+        }
+
+        speedUp (60, 10)
+
+        speedUp(40, 20)
+
+        speedUp(70, 5)
+
+        </script> -->
+        
+       <!--<script>
+           // parâmetros com valor padrão
+           function greetPilot(name, message = "Olá") {
+               alert(message + "," + name)
+           }
+
+           greetPilot("John Mars") 
+
+
+       </script>-->
+       <!--<script>
+           //Armadilhas de parâmetros
+           function greetPilot(name/*(name) recebe undefined*/, message = "Olá") {
+               alert(message + ", " + name)
+           }
+
+           greetPilot()
+       </script>-->
+      <!--<script>
+           function speedUp(velocity, unit = "km/s", acceleration) {
+               let newVelocity = velocity + acceleration
+               alert("Nova velocidade: " + newVelocity + unit)
+           }
+
+           speedUp(50,  20)
+           // velocity receberá 50, e unit receberá 20, dando NaN no acceleration e tambem erro lógico
+       </script>-->
+       
+       <script>
+           // Retorno da função
+         function speedUp(velocity, acceleration) {
+         let newVelocity = velocity + acceleration
+         alert("Nova velocidade: " + newVelocity)
+         return newVelocity
+        }
+        
+        let velocity = 80
+        let acceleration = 5
+
+        alert(velocity)
+
+        velocity = speedUp(velocity, acceleration)
+
+        alert(velocity)
+      
+       </script>
+</body>
+</html>

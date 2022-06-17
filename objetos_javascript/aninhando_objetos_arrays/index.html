@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aninhando objetos e Arrays</title>
+</head>
+<body>
+    <script>
+        /*let spaceship = {
+            name: "Supernova",
+            type:"Batalha",
+            crew: ["Cap, Silva", "Ana Júlia", "Thiago"]
+        }
+
+        alert(spaceship.crew)
+
+        spaceship.crew.push("Ten. Fernanda")
+
+        alert(spaceship.crew)*/
+
+        /*let spaceships = [
+            {name: "Elemental", crewQuantity: 10},
+            {name: "Colossus", crewQuantity: 8},
+            {name: "Helmet", crewQuantity: 15}
+        ]
+        /*alert(spaceships[0].crewQuantity)*/
+
+       /* spaceships.forEach(spaceship =>{
+            alert(spaceship.name + " tem " + spaceship.crewQuantity + " tripulantes.")
+        })*/ 
+        let spaceship = {
+            name: "Golias",
+            maxCrew: 20,
+            captain: {
+                name: "Hugo Trent",
+                age: 37
+            }
+        }
+
+        alert(spaceship.captain.name)
+
+    </script>
+    
+</body>
+</html>

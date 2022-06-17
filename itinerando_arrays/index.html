@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itinerando Arrays</title>
+</head>
+<body>
+    <script>
+        //forEach
+
+        /*let hitchedSpaceships = ["Deméter", "Darwin", "Supernova", "Fenix"]
+
+        hitchedSpaceships.forEach(function(currentSpaceship, index) {
+            alert("Nave: " + currentSpaceship + "\nIndice: " + index)
+        })*/
+        // o comando "forEach" passará por todos os elementos do array e a posiçao deles e retornará um por um . "currentSpaceship" como elmento e "index" como posição
+
+        //Map
+
+        /*let hitchedSpaceships = ["Deméter", "Darwin", "Supernova", "Fenix", "Puller"]
+
+        let upcasedSpaceships = hitchedSpaceships.map(function(currentSpaceship){
+            let upcased = currentSpaceship.toUpperCase()
+            return upcased
+        })
+
+        alert(upcasedSpaceships)*/
+        //.map serve para quando for transformar/alterar valores ou concatenar operações em cima de arrays
+        //função retornará todas as palavras em maiúsculas
+        //toUpperCase função de string que retorna os elementos em maiúscula
+
+        //filter
+
+        /*let hitchedSpaceships = ["Deméter", "Darwin", "Supernova", "Fenix", "Puller"]
+
+        let with7Chars = hitchedSpaceships.filter(element => {return element.length >= 7})
+
+        alert(with7Chars)
+        //.filter passa por todos os elementos do array e retornará um resultado booleano*/
+
+        //find
+
+        let hitchedSpaceships = ["Deméter", "Darwin", "Supernova", "Fenix", "Puller"]
+
+        let with7Chars = hitchedSpaceships.find(element => {return element.length >= 7})
+
+        alert(with7Chars)
+        //.find retorna o primeiro elemento do parametro booleano
+    </script>
+    
+</body>
+</html>
