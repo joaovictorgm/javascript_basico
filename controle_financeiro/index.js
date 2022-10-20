@@ -19,6 +19,7 @@ do{
             break
         case 3:
             alert("Programa encerrado")
+            break
         default:
             alert("Opção invalida.")
     }

@@ -13,4 +13,5 @@ let multi = primeiroNumero * segundoNumero
 
 let divi = primeiroNumero / segundoNumero
 
-alert("Subtração: "+ sub + " " + "\nAdição: " + adi + " " + "\nMultiplicação: " + multi + " " + "\nDivisão: " + divi)
+alert("Subtração: "+ sub + " " + "\nAdição: " + adi + " " + 
+"\nMultiplicação: " + multi + " " + "\nDivisão: " + divi)

@@ -1,5 +1,9 @@
-let number = parseFloat(prompt("Informe um número de 1 a 20"))
+const number = parseFloat(prompt("Informe um número que deseja calcular a tabuada:"))
 
-for( let i= 0; i <= 10;i++){
-    alert(+number + " x " + i + "= " + number*i)
+let result =""
+
+for( let i= 0; i <= 20;i++){
+    result += " >> " + number + " x " + i + " = " + (number *i)+ "\n"
 }
+
+alert("Resultado da tabuada de " + number + ":\n\n" + result)
