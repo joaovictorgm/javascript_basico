@@ -60,7 +60,7 @@ console.log(UltimateElement)
  console.log(sociedade)
  console.log(elementosRemovidos)
 
- //Iterar(navega) pelos elementos do array
+ //Iterar(navega2) pelos elementos do array
  for(let indice = 0; indice < sociedade.length;indice++){
     const elemento = sociedade[indice]
     console.log(elemento + " se encontra na posição "+ indice)
